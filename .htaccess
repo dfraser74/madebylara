@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^madebylara.com.au [NC]
+RewriteRule ^(.*)$ http://www.madebylara.com.au/$1 [L,R=301]
